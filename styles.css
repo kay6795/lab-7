@@ -1,0 +1,110 @@
+body{
+      margin: 40px;
+}
+button{
+      background-color: lightblue;
+      width: 100px;
+      height: 100px;
+      border: dashed darkblue 2px;
+      border-radius: 10px;
+      transition: all;
+      transition-duration: 0.5s;
+}
+.transition-button:hover{
+      background-color: green;
+}
+
+div{
+      background-color: lightcoral;
+      width: 100px;
+      height: 100px;
+      border: dashed coral 2px;
+      border-radius: 10px; 
+      transition: all; 
+      transition-duration: 1s;
+}
+.transition-div:hover{
+      width: 200px;
+}
+p{
+      transition: all; 
+      transition-duration: 0.3s;  
+      font-size: 16px; 
+      color: brown;
+}
+.transition-text:hover{
+      font-size: 24px;
+}
+
+img{
+      transition-duration: 0.8;
+      opacity: 1;
+}
+.transition-image:hover{
+      opacity: 0.5;
+}
+img{ 
+      transition: all; 
+      transition-duration:1;
+}
+.scale-img:hover{
+      scale: 0.75;
+}
+
+.scale-div{
+      background-color: lightgoldenrodyellow;
+      width: 100px;
+      height: 100px;
+      border: dashed yellow 2px;
+      border-radius: 10px; 
+      transition: all;
+      transition-duration:1; 
+}
+.scale-div:hover{
+      scale: 1.5;
+}
+.translate-button{
+      background-color: lavender;
+      width: 100px;
+      height: 100px;
+      border: dashed purple 2px;
+      border-radius: 10px;
+      transition: all;
+      transition-duration:1;
+}     
+.translate-button:hover{
+      transform: translate(50px,20px);
+}
+
+.translate-div{
+      background-color: goldenrod;
+      width: 100px;
+      height: 100px;
+      border: dashed orange 2px;
+      border-radius: 10px; 
+      transition: all; 
+      transition-duration:1;
+}
+.translate-div:hover{
+      transform: translate(100px);
+}
+
+h1{
+      text-decoration: dashed;
+      font-size: xx-large;
+      color: brown;
+      transition-duration:1;
+}
+.skew-heading:hover{
+      transform: skewX(20deg);
+}
+
+.skew-paragraph{
+      transition: all; 
+      font-size: xx-large; 
+      color: brown;
+      transition-duration:1;
+}
+.skew-paragraph:hover{
+      transform:skewY(15deg)
+}
